@@ -36,6 +36,7 @@ func main() {
 	fmt.Println("Natural Frequency:", nat_freq)
 	fmt.Println("Tau:", tau)
 	fmt.Println("K1:", k1)
+	reader.ReadString('\n')
 }
 
 func abs(val float64) float64 {
